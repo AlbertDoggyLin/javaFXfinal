@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: rgb(0,31,62);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalProject.StartSceneController">
+   <children>
+      <Label layoutX="152.0" layoutY="63.0" prefHeight="37.0" prefWidth="296.0" text="Welcome to My Game" textFill="WHITE">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Slider fx:id="difficultSlider" layoutX="279.0" layoutY="158.0" prefHeight="35.0" prefWidth="190.0" />
+      <Label layoutX="121.0" layoutY="161.0" text="difficulty" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="mineSweeperButton" layoutX="253.0" layoutY="250.0" mnemonicParsing="false" onAction="#minesweeperStart" prefHeight="30.0" prefWidth="94.0" text="Minesweeper" />
+      <Button fx:id="ternisButton" layoutX="253.0" layoutY="315.0" mnemonicParsing="false" onAction="#ternisStart" prefHeight="30.0" prefWidth="94.0" text="Tetris" />
+      <Label layoutX="238.0" layoutY="169.0" text="hard" textFill="#656565" />
+      <Label layoutX="478.0" layoutY="169.0" text="hard" textFill="#656565" />
+   </children>
+</AnchorPane>
